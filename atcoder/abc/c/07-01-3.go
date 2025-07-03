@@ -24,7 +24,7 @@ func main() {
 
 		for 2*s[current] < s[n-1] {
 			left, right := current, n-1
-			
+
 			for (right - left) > 1 {
 				mid := left + (right-left)/2
 				if 2*s[current] < s[mid] {
@@ -35,7 +35,7 @@ func main() {
 			}
 			if 2*s[current] < s[left] {
 				break
-			}else if s[current] >= s[left]{
+			} else if s[current] >= s[left] {
 				break
 			}
 			counter++
