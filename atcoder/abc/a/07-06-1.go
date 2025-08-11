@@ -8,7 +8,7 @@ func main() {
 
 	res := 0
 	for i := 0; i < n; i++ {
-		tmp:=0
+		tmp := 0
 		fmt.Scan(&tmp)
 		if i%2 == 0 {
 			res += tmp
